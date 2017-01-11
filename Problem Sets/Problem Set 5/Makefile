@@ -1,3 +1,7 @@
+OPENCV_LIBPATH=/usr/local/lib/
+OPENCV_INCLUDEPATH=/usr/include/
+CUDA_INCLUDEPATH=/usr/local/cuda/include
+
 NVCC=nvcc
 NVCC_OPTS=-O3 -arch=sm_20 -Xcompiler -Wall -Xcompiler -Wextra -m64
 
